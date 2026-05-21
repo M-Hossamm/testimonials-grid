@@ -15,9 +15,9 @@ body {
     padding: 20px;        
 }
 .page {
-    height: 100vh;
+   
     background-color: wheat;
-
+align-items: start;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 25px;
@@ -316,6 +316,7 @@ body {
             "card5";
         gap: 20px; 
         padding: 20px;
+        align-items: stretch;
     }
 
     .card1, .card2, .card3, .card4, .card5 {
